@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: itomorrow18
+  host: itomorrow18
+  disk_quota: 1024M
+  services:
+  - itomorrow18-cloudantNoSQLDB
+  - itomorrow18-iotf-service
